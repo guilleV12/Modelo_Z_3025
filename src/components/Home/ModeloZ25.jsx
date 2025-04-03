@@ -23,7 +23,7 @@ const ModeloZ25 = () => {
 
       <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'MODELO Z25'} colored={true}/>    
 
-      <div className='flex justify-center mx-auto w-[30rem] h-[30rem] mb-10'>
+      <div className='flex justify-center mx-auto w-[18rem] h-[18rem] md:w-[30rem] md:h-30rem mb-10'>
         <ModelViewer />
       </div>
 
