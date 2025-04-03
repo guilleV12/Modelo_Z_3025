@@ -5,9 +5,10 @@ import { faAddressBook, faSquarePlus } from '@fortawesome/free-regular-svg-icons
 import HamburgerBtn from './HamburgerBtn'
 import MobileMenu from './MobileMenu'
 
-const Navbar = ({ links }) => {
+const Navbar = () => {
 
   const [openMenu, setOpenMenu] = useState(false)
+  const links = ["Origen", "Bushido", "ModeloZ25"]
 
   const handleOpenCloseMenu = () => {
     setOpenMenu(!openMenu)

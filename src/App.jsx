@@ -3,13 +3,13 @@ import Footer from './components/Home/Footer'
 import ModeloZ25 from './components/Home/ModeloZ25'
 import Origen from './components/Home/Origen'
 import Welcome from './components/Home/Welcome'
-import NavbarController from './components/Navbar/Navbar.controller'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <main className=''>
-      <NavbarController />
+      <Navbar />
       <Welcome />
       <Origen />
       <Codigo />
