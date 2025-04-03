@@ -1,0 +1,4 @@
+{
+  "navbar": ["Origen", "Bushido", "ModeloZ25"],
+  "footer": [{"title" : "LinkedIn", "href" : "https://www.linkedin.com/in/guillermo-vera-75a5752a8/"}, {"title" : "GitHub", "href" : "https://github.com/guilleV12"}, {"title": "Repositorio", "href": ".."}]
+}
