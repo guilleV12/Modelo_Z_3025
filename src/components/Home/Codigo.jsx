@@ -44,8 +44,7 @@ const Codigo = () => {
 
       <div className='flex justify-center w-full mb-10'>
         <h3 className='w-[90%] md:w-[50%] text-justify md:text-center text-sm md:text-xl' ref={descriptionRef}>
-          El bushido es un código de honor y ética que se refiere al comportamiento de los samuráis japoneses. Se traduce como "camino del guerrero".
-          Deberas respetarlo antes de acceder a este poder.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores architecto sunt quasi magni assumenda, ex, repudiandae laboriosam odit quae animi nostrum debitis. Qui laudantium id nostrum error assumenda delectus voluptates.
         </h3>
       </div>
 
