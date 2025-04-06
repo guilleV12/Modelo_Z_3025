@@ -33,7 +33,7 @@ const Welcome = () => {
   })
 
   return (
-    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36'>
+    <section className='home-sections flex flex-col justify-between py-24 px-8 md:py-16 md:px-36'>
 
       <div className='flex w-full h-[12%] mb-6 justify-center items-center overflow-hidden'>
         <h1 className='font-semibold text-3xl' ref={title}>Modelo Z 3025</h1>

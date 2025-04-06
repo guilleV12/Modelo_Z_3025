@@ -10,7 +10,7 @@ export const animateWithGsap = (target) => {
   },{ 
     opacity: 1, 
     translateY: 0,
-    duration: 1,
+    duration: 2,
     stagger: 0.5,
     ease: "power2.inOut",
     scrollTrigger: {
