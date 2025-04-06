@@ -31,7 +31,7 @@ const Codigo = () => {
   return (
     <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36'>
       
-      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'BUSHIDO'}/>
+      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'CODIGO'}/>
 
       {/* Contenedor del carrusel */}
       <div className='relative w-full overflow-hidden mb-5 md:mb-10'>

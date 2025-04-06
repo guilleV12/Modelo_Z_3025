@@ -8,7 +8,7 @@ import MobileMenu from './MobileMenu'
 const Navbar = () => {
 
   const [openMenu, setOpenMenu] = useState(false)
-  const links = ["Origen", "Bushido", "ModeloZ25"]
+  const links = ["Origen", "Codigo", "Modelo"]
 
   const handleOpenCloseMenu = () => {
     setOpenMenu(!openMenu)
