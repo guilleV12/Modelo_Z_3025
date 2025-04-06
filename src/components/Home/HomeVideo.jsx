@@ -8,8 +8,8 @@ const HomeVideo = ({ container, videoRef, videoSrc }) => {
         <video  
         ref={videoRef} 
         className="pointer-events-none w-full h-full rounded-2xl" 
-        autoPlay 
         muted 
+        preload='none'
         playsInline={true} 
         key={videoSrc}
         >

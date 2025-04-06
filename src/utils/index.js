@@ -6,7 +6,7 @@ import welcome from '/assets/videos/welcome.webm'
 
 export const welcomeVideo = welcome
 
-import origen1 from '/assets/videos/Origen-1.webm'
+import origen1 from '/assets/videos/origen-1.webm'
 import origen2 from '/assets/videos/origen-2.webm'
 import origen3 from '/assets/videos/origen-3.webm'
 

@@ -22,23 +22,33 @@ const Origen = () => {
   useGSAP(() => {
     animateWithGsap([sectionTitle.current, sectionSubtitle.current])
 
-    gsap.to([video1Ref.current, video2Ref.current, video3Ref.current], {
-      scrollTrigger: {
-        trigger: [video1Ref.current, video2Ref.current, video3Ref.current],
-        toggleActions: 'restart reverse restart reverse',
-        start: "top 20%", // Ajusta el punto de activación
-        onEnter: () => {
-          video1Ref.current?.play();
-          video2Ref.current?.play();
-          video3Ref.current?.play();
-        },
-        onLeave: () => {
-          video1Ref.current?.pause();
-          video2Ref.current?.pause();
-          video3Ref.current?.pause();
-        },
-      },
-    })
+    const videos = [video1Ref.current, video2Ref.current, video3Ref.current];
+
+    videos.forEach((video) => {
+      if (video) {
+        gsap.fromTo(video, {
+            opacity: 0,
+          },{
+            opacity: 1, 
+            duration:2,
+            ease: "power1.inOut",
+            scrollTrigger: {
+              trigger: video,
+              toggleActions: 'restart reverse restart reverse',
+              start: "top 50%",
+              onEnter: () => video.play(),
+              onLeave: () => video.pause(),
+              onEnterBack: () => video.play(),
+              onLeaveBack: () => video.pause(),
+            },
+            onComplete: () => {
+              video.play()
+            },
+          }
+        )
+      }
+    });
+
   })
 
   return (

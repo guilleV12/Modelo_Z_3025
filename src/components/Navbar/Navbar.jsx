@@ -33,7 +33,7 @@ const Navbar = () => {
 
       <div className='flex items-center justify-center flex-1'>
         <a href="">
-          <img src={warrior2} alt="logo" id='logo' className='h-19 w-19' />
+          <img src={warrior2} alt="logo" id='logo' className='h-19 w-19' loading='lazy'/>
         </a>
       </div>
       
@@ -55,7 +55,7 @@ const Navbar = () => {
       </div>
 
       <HamburgerBtn callbackMenuFn={handleOpenCloseMenu}/>
-      <MobileMenu isMenuOpen={openMenu} callbackMenuFn={handleOpenCloseMenu} links={links}/>
+      {openMenu && <MobileMenu isMenuOpen={openMenu} callbackMenuFn={handleOpenCloseMenu} links={links}/>}
     </header>
   )
 }

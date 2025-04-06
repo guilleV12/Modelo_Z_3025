@@ -1,18 +1,23 @@
-import Codigo from './components/Home/Codigo'
-import Footer from './components/Home/Footer'
-import ModeloZ25 from './components/Home/ModeloZ25'
-import Origen from './components/Home/Origen'
-import Welcome from './components/Home/Welcome'
+import { lazy, Suspense } from 'react'
 import Navbar from './components/Navbar/Navbar'
 
-function App() {
+// Lazy load de los componentes
+const Welcome = lazy(() => import('./components/Home/Welcome'))
+const Origen = lazy(() => import('./components/Home/Origen'))
+const Codigo = lazy(() => import('./components/Home/Codigo'))
+const ModeloZ25 = lazy(() => import('./components/Home/ModeloZ25'))
+const Footer = lazy(() => import('./components/Home/Footer'))
 
+function App() {
   return (
-    <main className=''>
+    <main>
       <Navbar />
-      <Welcome />
-      <Origen />
-      <Codigo />
+      <Suspense fallback={<div className="text-center p-4"></div>}>
+        <Welcome />
+        <Origen />
+        <Codigo />
+      </Suspense>
+
       <ModeloZ25 />
       <Footer />
     </main>

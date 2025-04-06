@@ -19,11 +19,11 @@ const ModeloZ25 = () => {
 
 
   return (
-    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36 bg-zinc-900'>
+    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36 bg-zinc-900 h-full'>
 
       <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'MODELO'} colored={true}/>    
 
-      <div className='flex justify-center mx-auto w-[18rem] h-[18rem] md:w-[30rem] md:h-30rem mb-10'>
+      <div className='flex justify-center mx-auto w-[18rem] h-[18rem] md:w-[30rem] md:h-[30rem] mb-10'>
         <ModelViewer />
       </div>
 
