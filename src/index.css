@@ -85,4 +85,9 @@
     0 0 12px #ff6688, 
     0 0 18px #ff0044;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
 }

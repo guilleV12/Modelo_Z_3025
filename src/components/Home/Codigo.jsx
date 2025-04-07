@@ -29,7 +29,7 @@ const Codigo = () => {
   });
 
   return (
-    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36'>
+    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36' id='Codigo'>
       
       <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'CODIGO'}/>
 

@@ -19,7 +19,7 @@ const ModeloZ25 = () => {
 
 
   return (
-    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36 bg-zinc-900 h-full'>
+    <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36 bg-zinc-900 h-full' id='Modelo'>
 
       <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'MODELO'} colored={true}/>    
 

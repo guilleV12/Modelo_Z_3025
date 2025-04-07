@@ -22,7 +22,7 @@ const Navbar = () => {
           {
             links.map((item) => (
               <li key={item} className='relative flex items-center justify-center w-fit px-4'>
-                <a href='#' className='md:text-md md:font-normal'>
+                <a href={`#${item}`} className='md:text-md md:font-normal'>
                   {item}
                 </a>
               </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
       </nav>
 
       <div className='flex items-center justify-center flex-1'>
-        <a href="">
+        <a href="#Welcome">
           <img src={warrior2} alt="logo" id='logo' className='h-19 w-19' loading='lazy'/>
         </a>
       </div>
