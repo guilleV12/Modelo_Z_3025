@@ -32,7 +32,7 @@ const SectionHeader = ({ sectionTitle, sectionSubtitle, title, colored, subtitle
     </div>
 
     <div className='flex w-full justify-start items-center mb-5 md:mb-10'>
-      <h1 className={`font-semibold text-2xl md:text-4xl ${colored && 'text-zinc-500'}`} ref={sectionSubtitle}>{subtitleContent}</h1>
+      <h1 className={`font-normal md:font-semibold text-lg md:text-4xl ${colored && 'text-zinc-500'}`} ref={sectionSubtitle}>{subtitleContent}</h1>
     </div>
     </>
   )
