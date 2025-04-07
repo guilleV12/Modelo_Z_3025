@@ -31,7 +31,7 @@ const MobileMenu = ({ isMenuOpen, callbackMenuFn, links }) => {
           {
             links.map((item) => (
               <li key={item} className='relative flex-1 flex items-center justify-center font-medium text-md'>
-                <a href='#'>
+                <a href={`#${item}`}>
                   {item}
                 </a>
               </li>
