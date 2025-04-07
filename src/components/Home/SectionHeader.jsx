@@ -7,7 +7,7 @@ import { animateWithGsap } from '../../utils/animations'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const SectionHeader = ({ sectionTitle, sectionSubtitle, title, colored }) => {
+const SectionHeader = ({ sectionTitle, sectionSubtitle, title, colored, subtitleContent }) => {
   const spinner = useRef()
 
   useGSAP(() => {
@@ -32,7 +32,7 @@ const SectionHeader = ({ sectionTitle, sectionSubtitle, title, colored }) => {
     </div>
 
     <div className='flex w-full justify-start items-center mb-5 md:mb-10'>
-      <h1 className={`font-semibold text-2xl md:text-4xl ${colored && 'text-zinc-500'}`} ref={sectionSubtitle}>Lorem ipsum dolor dolor.</h1>
+      <h1 className={`font-semibold text-2xl md:text-4xl ${colored && 'text-zinc-500'}`} ref={sectionSubtitle}>{subtitleContent}</h1>
     </div>
     </>
   )

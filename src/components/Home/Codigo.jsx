@@ -31,7 +31,9 @@ const Codigo = () => {
   return (
     <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36' id='Codigo'>
       
-      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'CODIGO'}/>
+      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'CODIGO'} colored={true}
+        subtitleContent={'Antes de ser candidato deberas entender y respetar cierto codigo de conducta.'}
+      />
 
       {/* Contenedor del carrusel */}
       <div className='relative w-full overflow-hidden mb-5 md:mb-10'>
@@ -44,7 +46,7 @@ const Codigo = () => {
 
       <div className='flex justify-center w-full mb-10'>
         <h3 className='w-[90%] md:w-[50%] text-justify md:text-center text-sm md:text-xl' ref={descriptionRef}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores architecto sunt quasi magni assumenda, ex, repudiandae laboriosam odit quae animi nostrum debitis. Qui laudantium id nostrum error assumenda delectus voluptates.
+        El código de conducta es nuestro estandarte: actuamos con honor, respeto y valentía. En cada línea, decisión y acción, defendemos la verdad, la unión y la fuerza del equipo.
         </h3>
       </div>
 

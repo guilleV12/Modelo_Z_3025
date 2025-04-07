@@ -54,7 +54,9 @@ const Origen = () => {
   return (
     <section className='home-sections bg-zinc-900 flex flex-col py-6 px-8 md:py-16 md:px-36' id='Origen'>
 
-      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'ORIGEN'} colored={true}/>
+      <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'ORIGEN'} colored={true}
+        subtitleContent={'Originado por la necesidad de acelerar la evolucion humana.'}
+      />
 
       {
         videos.map((video, index) => (
