@@ -22,7 +22,7 @@ const ModeloZ25 = () => {
     <section className='home-sections flex flex-col py-6 px-8 md:py-16 md:px-36 bg-zinc-900 h-full' id='Modelo'>
 
       <SectionHeader sectionTitle={sectionTitle} sectionSubtitle={sectionSubtitle} title={'MODELO'} colored={true}
-        subtitleContent={'Hecha un vistazo al prototipo actual del modelo Z 3025.'}
+        subtitleContent={'Inspecciona un poco al prototipo actual del modelo Z 3025.'}
       />    
 
       <div className='flex justify-center mx-auto w-[18rem] h-[18rem] md:w-[30rem] md:h-[30rem] mb-10'>

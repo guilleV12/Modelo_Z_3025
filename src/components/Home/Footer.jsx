@@ -2,7 +2,7 @@ import React from 'react'
 import PropagateLoader  from "react-spinners/ClipLoader";
 
 const Footer = () => {
-  const links = [{"title" : "LinkedIn", "href" : "https://www.linkedin.com/in/guillermo-vera-75a5752a8/"}, {"title" : "GitHub", "href" : "https://github.com/guilleV12"}, {"title": "Repositorio", "href": ".."}]
+  const links = [{"title" : "LinkedIn", "href" : "https://www.linkedin.com/in/guillermo-vera-75a5752a8/"}, {"title" : "GitHub", "href" : "https://github.com/guilleV12"}, {"title": "Repositorio", "href": "https://github.com/guilleV12/Modelo_Z_3025.git"}]
   /*const [footerData, setFooterData] = useState()
   const [error, setError] = useState(null)
 
