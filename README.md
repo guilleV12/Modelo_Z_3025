@@ -43,5 +43,4 @@ Proyecto práctico de desarrollo web con **React.js**, centrado en la presentaci
 **Guillermo Vera**  
 Frontend Developer  
 📍 Argentina  
-🌐 [Tu Portfolio](https://tuportfolio.com)  
-📫 [tucorreo@example.com](mailto:tucorreo@example.com)
+📫 veraguillermo345@gmail.com
